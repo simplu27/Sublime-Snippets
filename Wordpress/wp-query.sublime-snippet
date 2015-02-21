@@ -6,6 +6,7 @@
 		'post_type' => '${1:post_type}',
 		'posts_per_page' => ${2:pr_page},
 	);
+	
 	\$${3:query_name} = new WP_Query( \$args );
 ?>
 
@@ -19,7 +20,7 @@
 
 ]]></content>
 <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-<tabTrigger>wp-query</tabTrigger>
+<tabTrigger>wp-query-loop</tabTrigger>
 <!-- Optional: Set a scope to limit where the snippet will trigger -->
 <!-- <scope>source.php</scope> -->
 <description>Wordpress Custom Query Loop</description>
